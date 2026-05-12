@@ -1,11 +1,122 @@
-<div align="center">
+# Brian Scott McCarthy - Professional Credentials
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+## Credly Credentials
+- IBM AI Product Manager Professional Certificate
+- Microsoft Project Management Professional Certificate
+- IBM IT Scrum Master Professional Certificate
+- Fundamentals of Agile Project Management
+- Java Programming Fundamentals Specialization
+- JavaScript Programming with React, Node & MongoDB Specialization
+- Generative AI for Product Managers Specialization
+- Generative AI for Software Developers Specialization
+- Software Testing, Deployment, and Maintenance Strategies
+- Micro-Certification - Agile and Test Management
+- Micro-Certification - Automated Test Framework
+- Penetration Testing, Threat Hunting, and Cryptography
+- IBM Z DevOps Testing Fundamentals
+- Introduction to Test Driven Development
+- Google AI Professional Certificate
+- Project Management Fundamentals
+- Fundamentals of Predictive Project Management
+- Practical Application of Gen AI for Project Managers
+- Talking to AI: Prompt Engineering for Project Managers
+- Generative AI Overview for Project Managers
+- PMI Essentials: Seven AI Project Patterns
+- PMI Essentials M.O.R.E. Maximizing Project Success
+- Product Management Basics Certification
+- AI for Product Management
+- Product-led Certification
+- Product Analytics Certification
+- Product Discovery Certification
+- Radical Product Thinking: Vision Setting
+- Digital Adoption Certification
+- AWS Knowledge: Security Champion
+- AWS Knowledge: Cloud Essentials
+- AWS Knowledge: Amazon Connect AI Fundamentals
+- AWS Knowledge: Amazon Connect Fundamentals
+- AWS Knowledge: Amazon Connect Developer
+- AWS Educate Introduction to Generative AI
+- AWS Educate Machine Learning Foundations
+- Well-Architected Proficient
+- Micro-Certification – DevOps Change Velocity
+- Micro-Certification - Flow Designer
+- Micro-Certification - Integration Hub
+- Micro-Certification - Introduction to App Engine Studio
+- Micro-Certification - Platform Analytics
+- Micro-Certification - Playbooks Advanced
+- Micro-Certification - Playbooks Essentials
+- Micro-Certification - Predictive Intelligence
+- Micro-Certification - Service Portal
+- Micro-Certification - UI Builder
+- Micro-Certification - Welcome to ServiceNow
+- Agile Explorer
+- Querying Databases with SQL
+- Databases and SQL for Data Science
+- Python Project for AI and Application Development
+- Building Generative AI-Powered Applications with Python
+- JavaScript Programming Essentials
+- Web Development with HTML, CSS, JavaScript Essentials
+- Object Oriented Programming in Java
+- Java Programming for Beginners
+- Introduction to Agile Development and Scrum
+- DevOps Essentials
+- AWS Educate Introduction to Cloud 101
+- Google AI for Brainstorming and Planning
+- Google AI for Research and Insights
+- Generative AI: Prompt Engineering
+- Generative AI Essentials
+- Artificial Intelligence Essentials V2
+- Generative AI: Foundation Models and Platforms
+- Enterprise Design Thinking Practitioner
+- ISC2 Candidate
+- IT Fundamentals for Everyone
+- Google AI Essentials V1
+- Google AI for App Building
+- Google AI for Content Creation
+- Google AI for Data Analysis
+- Google AI for Writing and Communicating
+- Google AI Fundamentals
+- Front-end Development with React V2
+- Intermediate Back-end Development: Node & MongoDB
+- Node and Express Essentials
+- Product Management Essentials
+- Project Management Essentials
+- Python for Data Science and AI
+- Software Engineering Essentials
+- Generative AI Essentials for Software Developers V2
 
-  <h1>Built with AI Studio</h2>
-
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Accredible Credentials
+- Advanced ASP.NET Core MVC, Deployment & User Management
+- SQL Server for Beginners
+- C# Beginners
+- Advanced C# Topics
+- .NET Unit Testing with AutoFixture
+- Mastering Entity Framework Core
+- Complete Guide to Protocol Buffers (gRPC)
+- Docker & Kubernetes for .NET Developers
+- Azure DevOps Fundamentals
+- Azure Pipelines for .NET
+- ASP.NET Web API Design & Implementation
+- Microservices Architecture with .NET
+- RabbitMQ for .NET Developers
+- Redis Foundations for .NET
+- GraphQL with .NET Core
+- ElasticSearch for .NET Developers
+- Azure Functions & Serverless Computing
+- SignalR for Real-time Applications
+- IdentityServer4 Foundations
+- Clean Architecture in .NET
+- Test Driven Development in .NET
+- Domain Driven Design (DDD) for .NET
+- Selenium with C# Advanced
+- Playwright with TypeScript/JavaScript
+- Cypress for Modern Web Testing
+- Cucumber with Java/Selenium
+- Appium for Mobile Automation
+- JMeter for Performance Testing
+- Postman for API Testing
+- ISTQB Foundation Level
+- ISTQB Agile Tester
+- ISTQB Test Automation Engineer
+- Certified Software Business Analyst (CSBA)
+- Certified Software Quality Analyst (CSQA)
