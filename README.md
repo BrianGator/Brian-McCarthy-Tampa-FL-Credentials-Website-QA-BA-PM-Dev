@@ -1,6 +1,74 @@
-# Brian Scott McCarthy - Professional Credentials
+# Brian Scott McCarthy - Professional Credentials Portfolio
 
-## Credly Credentials
+## Quick Links
+- **Accredible Credentials:** [View Wallet](https://www.credential.net/profile/brian-mccarthy/wallet)
+- **Credly Credentials:** [View Badges](https://www.credly.com/users/brian-s-mccarthy/badges#credly)
+- **LinkedIn Profile:** [Connect on LinkedIn](https://www.linkedin.com/in/briansmccarthy/)
+- **GitHub Repositories:** [View All Projects](https://github.com/BrianGator?tab=repositories)
+
+---
+
+## About This Credentials Website
+This application is a comprehensive professional portfolio built to showcase a career defined by technical excellence and continuous learning. It serves as a centralized hub for tracking and verifying professional certifications, technical projects, and career highlights across multiple disciplines including Quality Assurance, Business Analysis, and Project/Product Management.
+
+### Technologies Used
+- **Framework:** React 18+ with Vite for high-performance development and bundling.
+- **Styling:** Tailwind CSS for a modern, responsive, and utility-first design.
+- **Animations:** Framer Motion (via `motion/react`) for smooth transitions and interactive UI elements.
+- **Icons:** Lucide React for consistent and lightweight vector iconography.
+- **Routing:** React Router DOM for seamless single-page application navigation.
+- **Language:** TypeScript for robust type-safety and better developer experience.
+
+---
+
+## GitHub Repositories
+Detailed overview of key technical projects and automation frameworks.
+
+### 1. Playwright-Automation-w-TypeScript
+- **Function:** Advanced automation framework for scalable end-to-end testing of modern web applications.
+- **Languages:** TypeScript, JavaScript.
+- **Technologies:** Playwright, Node.js, GitHub Actions (CI/CD).
+
+### 2. Selenium-WebDriver-Automation-w-Java-Ninja
+- **Function:** Robust testing suite demonstrating expert-level Selenium WebDriver usage for legacy and enterprise web platforms.
+- **Languages:** Java.
+- **Technologies:** Selenium WebDriver, TestNG, Maven, Log4j.
+
+### 3. Emotion-Analytics-w-Python-Flask-AI
+- **Function:** AI-powered web application that performs sentiment analysis and emotion detection on provided text data.
+- **Languages:** Python.
+- **Technologies:** Flask, Scikit-learn, NLTK (Natural Language Toolkit), Pandas.
+
+### 4. IBM-AI-Product-Management-Capstone
+- **Function:** Strategic project demonstrating the end-to-end lifecycle management of an AI-driven product, from vision to ethics.
+- **Languages:** N/A (Technical Documentation & Strategy).
+- **Technologies:** AI Strategy Frameworks, Product Design Tools.
+
+### 5. Full-Stack-E-Commerce-Application
+- **Function:** A complete MERN stack application featuring a product catalog, shopping cart, payment integration, and user authentication.
+- **Languages:** JavaScript.
+- **Technologies:** MongoDB, Express.js, React, Node.js, Redux, Stripe API.
+
+### 6. Agile-Project-Dashboard
+- **Function:** Real-time visualization tool for tracking agile metrics such as velocity, burndown charts, and sprint health.
+- **Languages:** JavaScript.
+- **Technologies:** D3.js, React, SVG, Agile Metrics APIs.
+
+### 7. Cucumber-BDD-Automation-Framework
+- **Function:** Behavior Driven Development (BDD) framework that bridges the gap between technical tests and business requirements.
+- **Languages:** Java.
+- **Technologies:** Cucumber, Gherkin, Selenium, JUnit.
+
+### 8. Rest-Assured-API-Testing-Suite
+- **Function:** Comprehensive API testing suite designed for the validation of microservices and RESTful architectures.
+- **Languages:** Java.
+- **Technologies:** Rest-Assured, Maven, JSON/XML Validation, Hamcrest.
+
+---
+
+## Technical Certifications Summary
+
+### Credly Credentials
 - IBM AI Product Manager Professional Certificate
 - Microsoft Project Management Professional Certificate
 - IBM IT Scrum Master Professional Certificate
@@ -85,7 +153,7 @@
 - Software Engineering Essentials
 - Generative AI Essentials for Software Developers V2
 
-## Accredible Credentials
+### Accredible Credentials
 - Advanced ASP.NET Core MVC, Deployment & User Management
 - SQL Server for Beginners
 - C# Beginners

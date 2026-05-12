@@ -1475,9 +1475,10 @@ const Home = ({ data }: any) => (
           
           <div className="flex-1 pb-4">
             <div className="flex flex-wrap gap-2 mb-4 justify-center md:justify-start">
-              <span className="px-3 py-1 bg-blue-600 text-white text-[10px] font-black uppercase tracking-widest rounded-sm">CSTP-A</span>
-              <span className="px-3 py-1 bg-slate-800 text-white text-[10px] font-black uppercase tracking-widest rounded-sm">Certified ScrumMaster</span>
-              <span className="px-3 py-1 bg-slate-100 text-slate-600 text-[10px] font-black uppercase tracking-widest rounded-sm border border-slate-200">IBM AI PM</span>
+              <span className="px-3 py-1 bg-slate-800 text-white text-[10px] font-black uppercase tracking-widest rounded-sm border border-slate-700">Microsoft AI PM</span>
+              <span className="px-3 py-1 bg-slate-100 text-slate-800 text-[10px] font-black uppercase tracking-widest rounded-sm border border-slate-300">Microsoft Business Analyst</span>
+              <span className="px-3 py-1 bg-amber-600 text-white text-[10px] font-black uppercase tracking-widest rounded-sm">Certified ScrumMaster</span>
+              <span className="px-3 py-1 bg-blue-600 text-white text-[10px] font-black uppercase tracking-widest rounded-sm">Certified QA Testing Professional</span>
             </div>
 
             <h2 className="text-4xl md:text-5xl font-black text-slate-900 uppercase tracking-tighter mb-2 leading-none">Brian Scott McCarthy</h2>
