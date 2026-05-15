@@ -11,20 +11,48 @@ export const SectionHeader = ({ title, icon: Icon }: { title: string, icon: any 
   </div>
 );
 
-export const CredentialCard = ({ cred }: any) => (
-  <Link to={`/credential/${cred.id}`}>
-    <motion.div 
-      whileHover={{ y: -2 }}
-      className="bg-white rounded-lg border border-slate-200 p-4 shadow-sm hover:border-blue-200 transition-all cursor-pointer group h-full flex flex-col"
-    >
-      <div className="relative aspect-square mb-4 overflow-hidden rounded bg-slate-50 flex items-center justify-center p-4 shrink-0">
-        <img src={cred.image} alt={cred.title} className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform" />
+export const PlainTextCredential = ({ cred, ...props }: { cred: Credential } & React.HTMLAttributes<HTMLAnchorElement>) => (
+  <a 
+    href={cred.verifyUrl} 
+    target="_blank" 
+    rel="noopener noreferrer"
+    {...props}
+    className="block p-4 border-b border-slate-100 hover:bg-slate-50 transition-colors last:border-0 group"
+  >
+    <div className="flex flex-col gap-1">
+      <h3 className="font-bold text-[14px] text-slate-800 leading-tight group-hover:text-blue-600 transition-colors">
+        {cred.title}
+      </h3>
+      <div className="flex flex-wrap items-center gap-2 text-[12px]">
+        <span className="text-slate-600 font-medium">{cred.issuer}</span>
+        <span className="text-slate-300">•</span>
+        <span className="text-slate-400 italic">Issued {cred.date}</span>
       </div>
-      <h3 className="font-bold text-[12px] text-slate-800 leading-tight mb-1 line-clamp-2 uppercase tracking-tight">{cred.title}</h3>
-      <p className="text-[11px] text-slate-500 mb-2">{cred.issuer}</p>
-      <div className="mt-auto text-[10px] font-semibold text-slate-400 uppercase tracking-widest">{cred.date}</div>
-    </motion.div>
-  </Link>
+    </div>
+  </a>
+);
+
+export const BulletedCredential = ({ cred, ...props }: { cred: Credential } & React.HTMLAttributes<HTMLLIElement>) => (
+  <li {...props} className="mb-4 list-disc ml-4 text-slate-700">
+    <div className="flex flex-col">
+      <h3 className="font-bold text-[14px] text-slate-800 leading-tight">
+        {cred.title}
+      </h3>
+      <div className="flex flex-wrap items-center gap-2 text-[12px] mt-1">
+        <span className="text-slate-600 font-medium">{cred.issuer}</span>
+        <span className="text-slate-300">|</span>
+        <span className="text-slate-400">{cred.date}</span>
+        <a 
+          href={cred.verifyUrl} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline inline-flex items-center gap-0.5"
+        >
+          Verify <ExternalLink className="w-2.5 h-2.5" />
+        </a>
+      </div>
+    </div>
+  </li>
 );
 
 export const SocialLink = ({ href, icon: Icon, label }: any) => (

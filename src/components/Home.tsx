@@ -13,7 +13,7 @@ import {
   FlaskConical,
   MapPin
 } from 'lucide-react';
-import { SectionHeader, CredentialCard, SocialLink } from './Common';
+import { SectionHeader, PlainTextCredential, BulletedCredential, SocialLink } from './Common';
 import { PortfolioData } from '../data';
 
 export const RoleHighlights = () => (
@@ -155,12 +155,12 @@ export const AccredibleSection = ({ data }: { data: PortfolioData }) => (
   <section className="bg-white p-6 md:p-12 border-b border-slate-200 w-full">
     <div className="w-full max-w-none">
       <SectionHeader title="Accredible Credentials" icon={Award} />
-      <div className="w-full max-h-[1000px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-transparent">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="w-full">
+        <ul className="space-y-1">
           {data.accredible.map((cred) => (
-             <CredentialCard key={cred.id} cred={cred} />
+             <BulletedCredential key={cred.id} cred={cred} />
           ))}
-        </div>
+        </ul>
       </div>
     </div>
   </section>
@@ -170,10 +170,10 @@ export const CredlySection = ({ data }: { data: PortfolioData }) => (
   <section className="bg-white p-6 md:p-12 border-b border-slate-200 w-full">
     <div className="w-full max-w-none">
       <SectionHeader title="Credly Credentials" icon={Award} />
-      <div className="w-full max-h-[1000px] overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-transparent">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="w-full">
+        <div className="flex flex-col">
           {data.credly.map((cred) => (
-            <CredentialCard key={cred.id} cred={cred} />
+            <PlainTextCredential key={cred.id} cred={cred} />
           ))}
         </div>
       </div>

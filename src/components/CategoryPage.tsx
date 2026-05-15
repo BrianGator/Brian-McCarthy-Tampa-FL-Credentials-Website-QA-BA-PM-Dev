@@ -3,6 +3,7 @@ import { Award, ExternalLink, RefreshCw, ChevronLeft } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
 import { INITIAL_DATA, Credential } from '../data';
+import { PlainTextCredential, BulletedCredential } from './Common';
 
 interface CategoryPageProps {
   title: string;
@@ -73,32 +74,20 @@ export default function CategoryPage({ title, subtitle, description, credentials
       </header>
 
       <main className="py-16 px-6 md:px-12 w-full max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {credentials.map((cred) => (
-            <motion.a 
-              href={cred.verifyUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              key={cred.id}
-              whileHover={{ y: -5 }}
-              className="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm hover:shadow-2xl transition-all h-full flex flex-col items-center text-center group"
-            >
-              <div className="w-32 h-32 mb-6 flex items-center justify-center p-4 group-hover:scale-105 transition-transform">
-                <img src={cred.image} alt={cred.title} className="max-w-full max-h-full object-contain" referrerPolicy="no-referrer" />
-              </div>
-              <h3 className="font-extrabold text-[12px] text-slate-900 leading-tight mb-2 uppercase tracking-tight line-clamp-3">
-                {cred.title}
-              </h3>
-              <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mb-4">
-                {cred.issuer}
-              </p>
-              <div className="mt-auto pt-4 border-t border-slate-50 w-full">
-                <p className="text-[10px] font-black text-slate-200 uppercase tracking-widest">
-                  Issued: {cred.date}
-                </p>
-              </div>
-            </motion.a>
-          ))}
+        <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+          {title.toLowerCase().includes('accredible') ? (
+            <ul className="p-8 space-y-2">
+              {credentials.map((cred) => (
+                <BulletedCredential key={cred.id} cred={cred} />
+              ))}
+            </ul>
+          ) : (
+            <div className="flex flex-col">
+              {credentials.map((cred) => (
+                <PlainTextCredential key={cred.id} cred={cred} />
+              ))}
+            </div>
+          )}
         </div>
         
         {credentials.length === 0 && (
