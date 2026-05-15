@@ -133,15 +133,6 @@ export default function App() {
     <Router>
       <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-blue-100 selection:text-blue-900">
         <Routes>
-          {/* New Permalinked Landing Pages */}
-          <Route path="/Brian-McCarthy-Credly-Tech-Certification-Badges" element={<CredlyPage />} />
-          <Route path="/Brian-McCarthy-Accredible-Tech-Certification-Certificates" element={<AccrediblePage />} />
-          <Route path="/Brian-McCarthy-QA-Tech-Certifications" element={<QAPage />} />
-          <Route path="/Brian-McCarthy-Project-Management-Tech-Certifications" element={<ProjectManagementPage />} />
-          <Route path="/Brian-McCarthy-Product-Management-Tech-Certifications" element={<ProductManagementPage />} />
-          <Route path="/Brian-McCarthy-Business-Analyst-Tech-Certifications" element={<BusinessAnalystPage />} />
-          <Route path="/Brian-McCarthy-Software-Developer-Tech-Certifications" element={<SoftwareDeveloperPage />} />
-          
           {/* Main Layout Wrap */}
           <Route path="*" element={
             <>
@@ -149,6 +140,13 @@ export default function App() {
               <main className="w-full">
                 <Routes>
                   <Route path="/" element={<Home data={data} />} />
+                  <Route path="/Brian-McCarthy-Credly-Tech-Certification-Badges" element={<CredlyPage />} />
+                  <Route path="/Brian-McCarthy-Accredible-Tech-Certification-Certificates" element={<AccrediblePage />} />
+                  <Route path="/Brian-McCarthy-QA-Tech-Certifications" element={<QAPage />} />
+                  <Route path="/Brian-McCarthy-Project-Management-Tech-Certifications" element={<ProjectManagementPage />} />
+                  <Route path="/Brian-McCarthy-Product-Management-Tech-Certifications" element={<ProductManagementPage />} />
+                  <Route path="/Brian-McCarthy-Business-Analyst-Tech-Certifications" element={<BusinessAnalystPage />} />
+                  <Route path="/Brian-McCarthy-Software-Developer-Tech-Certifications" element={<SoftwareDeveloperPage />} />
                   <Route path="/accredible-credentials" element={<div className="bg-white p-12 md:p-24"><AccredibleSection data={data} /></div>} />
                   <Route path="/credly-credentials" element={<div className="bg-white p-12 md:p-24"><CredlySection data={data} /></div>} />
                   <Route path="/github-portfolio" element={<div className="bg-white p-12 md:p-24"><GitHubSection data={data} /></div>} />
